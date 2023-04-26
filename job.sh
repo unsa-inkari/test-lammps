@@ -1,9 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name          test-lammps
-#SBATCH --time              720:00:00
+#SBATCH --time              1:00:00
 #SBATCH --nodes             1
-#SBATCH --ntasks-per-node   4
-#SBATCH --mem-per-cpu       1G
+#SBATCH --ntasks-per-node   1
+#SBATCH --mem-per-cpu       10MB
 #SBATCH --error             output-%j.error
 #SBATCH --output            output-%j.output
 
